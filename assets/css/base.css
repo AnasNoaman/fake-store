@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: calc( 100% - 300px );
+    margin: auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+:root{
+    --main-color:#FB2E86;
+    --main-font:"Lato", serif;
+    --sec-font:"Josefin Sans", serif;
+}
+h1,h2,h3,h4,h5,h6,h7{
+     font-family: var(--sec-font);
+}
+body{
+    font-family: var(--main-font);
+}
